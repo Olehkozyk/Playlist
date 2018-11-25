@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 body{
 	font: 400 18px/1 'Roboto', sans-serif;
-	background-image: url(../img/bg.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+	
+	
 }
 
 /* Layout */
@@ -11,6 +10,7 @@ body{
 	padding-left: 20px;
 	padding-right: 20px;
 	max-width: 1200px;
+	
 }
 
 /* Typography */
@@ -105,5 +105,17 @@ textarea {
 	
 }
 .ba-song__name{
-	color: aqua;
+	color: red;
+}
+.ba-play-song{
+
+}
+.ba-audio{
+	
+	height: 46px;
+}
+.ba-bg{
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }

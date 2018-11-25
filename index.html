@@ -14,6 +14,7 @@
 
 </head>
 <body>
+	<section class="ba-bg">
 	<div class="ba-container">
 		<div class="ba-playlist">
 			<h1 class="ba-playlist__name">PlayList</h1>
@@ -31,6 +32,11 @@
 					<!-- /.ba-song-goup -->
 					<div class="ba-song__name">
 						{{song}}
+						<audio class='ba-audio' controls>
+							<source src= "{{audio}}" type="audio/mpeg">
+							</audio>
+						</div>
+						<!-- /.ba-play-song -->
 					</div>
 				</li>
 			</script>
@@ -40,6 +46,7 @@
 		<!-- /.ba-playlist -->
 	</div>
 	<!-- /.ba-container -->
+</section>
 
 	<script src="js/main.js"></script>
 </body>
