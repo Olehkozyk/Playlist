@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+body{
+	font: 400 18px/1 'Roboto', sans-serif;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-playlist{
+	padding-top: 50px;
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 30px 20px;
+	background: #fff;
+	border-radius: 20px;
+}
+.ba-playlist__name{
+	text-align: center;
+	margin: 0 0 25px;
+}
+.ba-playlist__song{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.ba-tune{
+	padding-top: 10px;
+	margin-top: 10px;
+	border-top: 1px solid#e4e2e2;
+	text-transform: capitalize;
+}
+#icon-heart{
+	width: 20px;
+	height: 20px;
+	float: right;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.ba-song-group{
+	margin-bottom: 10px;
+
+}
+#icon-heart:hover{
+	fill: red;
+}
+.ba-song__duration{
+	font-size: 12px;
+	padding-right: 5px;
+	margin-right: 10px;
+	border-right: 1px solid#ccc;
+	color: #ccc;
+}
+.ba-song__group{
+	font-size: 12px;
+	color: #ccc;
+	
+}
+.ba-song__name{
+	color: aqua;
+}
